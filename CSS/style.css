@@ -61,3 +61,28 @@ nav {
 .links a:hover {
   color: rgb(106, 106, 208);
 }
+
+
+.header{
+  padding: 0 1rem;
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 2rem;
+  align-items: center;
+}
+
+.content h1{
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.content h1 span{
+  font-weight: 400;
+}
+
+.content p{
+  margin-bottom: 2rem;
+  line-height: 1.75rem;
+}

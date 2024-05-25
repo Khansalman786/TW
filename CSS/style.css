@@ -68,13 +68,13 @@ nav {
   flex: 1;
   display: grid;
   grid-template-columns: repeat(2,1fr);
-  gap: 2rem;
+  gap: 5rem;
   align-items: center;
 }
 
 .content h1{
   margin-bottom: 1rem;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
 }
 
@@ -85,4 +85,18 @@ nav {
 .content p{
   margin-bottom: 2rem;
   line-height: 1.75rem;
+}
+.image{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red */
+}
+.image > img{
+  display: flex;
+  background-size: cover;
+  background-position: center;
+  height: 90%;
+  width: 90%;
+  border-radius: 50%;
 }
